@@ -7,19 +7,19 @@ import br.sistemagerenciamentoseminarios.entidade.Seminario;
 
 public class programa {
     public static void main(String[] args) {
-        Local local = new Local("Rua Laranjeiras,No.321, Jardim Primavera");
+        Local local = new Local();
 
-        Seminario seminario1 = new Seminario("Java: Back-End Development", local);
-        Seminario seminario2 = new Seminario("JavaScript: Front-End Development", local);
+        Seminario seminario1 = new Seminario();
+        Seminario seminario2 = new Seminario();
 
 
-        Professor professor1 = new Professor("Carlos Alberto", "Desenvolvimento Full-Stack");
-        Professor professor2 = new Professor("Geraldo Nogueira", "Desenvolvimento Full-Stack");
+        Professor professor1 = new Professor();
+        Professor professor2 = new Professor();
 
-        Aluno aluno1 = new Aluno("Jorge", 32);
-        Aluno aluno2 = new Aluno("Pedro", 25);
-        Aluno aluno3 = new Aluno("Larissa", 19);
-        Aluno aluno4 = new Aluno("Julia", 29);
+        Aluno aluno1 = new Aluno();
+        Aluno aluno2 = new Aluno();
+        Aluno aluno3 = new Aluno();
+        Aluno aluno4 = new Aluno();
         Aluno[] arrayAlunos1 = {aluno1, aluno2};
         Aluno[] arrayAlunos2 = {aluno3, aluno4};
 
